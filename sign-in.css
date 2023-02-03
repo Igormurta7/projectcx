@@ -16,18 +16,30 @@ body {
   padding: 15px;
 }
 
+.form-floating {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #b0b0b1;
+  padding: 0px;
+}
+
 .form-signin .form-floating:focus-within {
   z-index: 2;
 }
 
 .form-signin input[type="email"] {
   margin-bottom: 8px;
-  border-color: #bfb8b8;
+  max-width: 300px;
+  max-height: 45px;
 }
 
 .form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-color: #bfb8b8;
+  margin-bottom: 8px;
+  max-width: 300px;
+  max-height: 45px;
 }
 
 #logo {
@@ -47,6 +59,7 @@ button {
   border: 1px solid #ffffff;
   border-radius: 5px;
   color: #ffffff;
+  margin: 0px;
 }
 
 button:hover {
