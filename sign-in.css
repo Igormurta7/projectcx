@@ -33,13 +33,13 @@ body {
 .form-signin input[type="email"] {
   margin-bottom: 8px;
   max-width: 300px;
-  max-height: 45px;
+  max-height: 50px;
 }
 
 .form-signin input[type="password"] {
   margin-bottom: 8px;
   max-width: 300px;
-  max-height: 45px;
+  max-height: 50px;
 }
 
 #logo {
